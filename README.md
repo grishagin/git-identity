@@ -1,12 +1,12 @@
 # git-identity
 
-Switch a repo's git identity (name, email, SSH key and signing key) between profiles you define once, with a single command:
+Switch a repo's git identity (name, email, SSH key and signing key) between profiles you define once, with a single command, for example:
 
 ```
 git identity personal
 ```
 
-If you have more than one identity (work and personal, or two GitHub accounts), it's easy to commit with the wrong name and email. Once an email is in a pushed commit, it stays in the history for good. git-identity lets you set the right identity per repo in one step, and shows at a glance which one a repo is using.
+If you have more than one identity (work and personal, or multiple GitHub accounts), it's easy to commit with the wrong name and email. Once an email is in a pushed commit, it stays in the history for good. This tool lets you set the right identity per repo in one step, and shows at a glance which one a repo is using.
 
 ## Requirements
 
