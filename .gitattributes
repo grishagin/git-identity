@@ -1,0 +1,3 @@
+* text=auto
+# The sh shim must keep LF endings or its shebang breaks
+git-identity text eol=lf

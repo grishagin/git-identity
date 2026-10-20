@@ -1,0 +1,3 @@
+#!/bin/sh
+# Lets `git identity ...` find the PowerShell script: git runs git-<name> from PATH.
+exec pwsh -NoProfile -ExecutionPolicy Bypass -File "$(dirname "$0")/git-identity.ps1" "$@"

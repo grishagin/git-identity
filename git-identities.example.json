@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "work": {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "sshKey": "~/.ssh/id_ed25519"
+    },
+    "personal": {
+      "name": "janed",
+      "email": "janed@example.org",
+      "sshKey": "~/.ssh/id_ed25519_personal",
+      "signingKey": "~/.ssh/id_ed25519_personal.pub"
+    }
+  }
+}
